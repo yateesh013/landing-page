@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: #fdfdfd;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: #ffcc00;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 30px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+}
+
+.nav-links li a:hover,
+.reservation-link {
+    background-color: #ffcc00;
+    color: #333;
+    border-radius: 4px;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1920x1080/ffe4b5/333?text= ');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta {
+    padding: 15px 30px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #ffaa00;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#menu {
+    background-color: #fff8e1;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about {
+    background-color: #fff;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+}
+
+#reservation {
+    background-color: #f4f4f4;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
